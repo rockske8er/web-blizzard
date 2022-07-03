@@ -1,0 +1,24 @@
+{
+  "name": "website-blizzard",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "rockske8er.dev",
+    "email": "suporte@rockske8er.dev",
+    "url": "https://www.rockske8er.dev"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "aos": "^2.3.4",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.53.0",
+    "swiper": "^8.2.6"
+  }
+}
