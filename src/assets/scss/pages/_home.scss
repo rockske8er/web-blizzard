@@ -172,3 +172,102 @@
 
   
 }
+
+.s-games{
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+  .games-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+    .games-category{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 40rem;
+      span{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-weight: 600;
+        display: block;
+        color: #8F9199;
+        margin-top: 12px;
+      }
+
+      h2{
+        font-size: 3.2rem;
+        line-height: 3rem;
+        font-weight: bold;
+        display: block;
+        color: $white;
+        width: 100%;
+        max-width: 17.5rem;
+      }
+    }
+    .games-categories{
+      width: 100%;
+      max-width: 58.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav-games{
+        display: flex;
+        align-items: center;
+        li {
+          &:not(:first-child){
+           margin-left: 2.4rem; 
+          }
+        }
+      }
+
+      .btn-all-categories{
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.4rem;
+        color: $primary-default;
+        img{
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .games-content{
+    .games-panel {
+      display: none;
+      &.active {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem 5rem;
+      }
+
+      .all-games-card{
+        width: 100%;
+        max-width: 28rem;
+        height: 38.4rem;
+        border: 1.5px solid #212428;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        span{
+          display: flex;
+          align-items: center;
+          margin-top: 3.4rem;
+          font-size: 1.6rem;
+          line-height: 2.2rem;
+          text-align: center;
+          color: $white;
+          img{
+            margin-right: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -362,3 +362,133 @@ button {
 .s-hero .slider-main .swiper-wrapper .swiper-slide.slide-03 {
   background: url("./../images/banners/banner-slide-03.jpg") no-repeat center center;
 }
+
+.s-games {
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+.s-games .games-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+.s-games .games-header .games-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 40rem;
+}
+.s-games .games-header .games-category span {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+  display: block;
+  color: #8F9199;
+  margin-top: 12px;
+}
+.s-games .games-header .games-category h2 {
+  font-size: 3.2rem;
+  line-height: 3rem;
+  font-weight: bold;
+  display: block;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 17.5rem;
+}
+.s-games .games-header .games-categories {
+  width: 100%;
+  max-width: 58.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.s-games .games-header .games-categories .nav-games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.s-games .games-header .games-categories .nav-games li:not(:first-child) {
+  margin-left: 2.4rem;
+}
+.s-games .games-header .games-categories .btn-all-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #00AEFF;
+}
+.s-games .games-header .games-categories .btn-all-categories img {
+  margin-right: 1rem;
+}
+.s-games .games-content .games-panel {
+  display: none;
+}
+.s-games .games-content .games-panel.active {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 5rem;
+}
+.s-games .games-content .games-panel .all-games-card {
+  width: 100%;
+  max-width: 28rem;
+  height: 38.4rem;
+  border: 1.5px solid #212428;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.s-games .games-content .games-panel .all-games-card span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 3.4rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.s-games .games-content .games-panel .all-games-card span img {
+  margin-right: 1.2rem;
+}
