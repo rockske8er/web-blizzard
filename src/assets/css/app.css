@@ -193,6 +193,33 @@ button {
   gap: 1.6rem;
 }
 
+.s-hero {
+  position: relative;
+  width: 100%;
+}
+.s-hero .slider-thumbnails {
+  position: absolute;
+  z-index: 10;
+  top: 24.1rem;
+  left: 1.2rem;
+  height: 32rem;
+}
+.s-hero .slider-thumbnails .swiper-wrapper .swiper-slide {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.s-hero .slider-thumbnails .swiper-wrapper .swiper-slide.disabled {
+  pointer-events: none;
+}
+.s-hero .slider-thumbnails .swiper-wrapper .swiper-slide-thumb-active {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 .s-hero .slider-main {
   width: 100%;
   height: 73.6rem;
@@ -217,7 +244,7 @@ button {
   margin-left: 22.3rem;
 }
 .s-hero .slider-main .swiper-wrapper .swiper-slide .slider-content h2 {
-  font-size: 6.4rem;
+  font-size: 6rem;
   font-weight: bold;
   line-height: 110.2%;
   margin-bottom: 1.6rem;
@@ -329,6 +356,9 @@ button {
 .s-hero .slider-main .swiper-wrapper .swiper-slide.slide-01 {
   background: url("./../images/banners/banner-slide-01.jpg") no-repeat center center;
 }
-.s-hero .slider-main .swiper-wrapper .swiper-slide.slide-012 {
+.s-hero .slider-main .swiper-wrapper .swiper-slide.slide-02 {
   background: url("./../images/banners/banner-slide-02.jpg") no-repeat center center;
+}
+.s-hero .slider-main .swiper-wrapper .swiper-slide.slide-03 {
+  background: url("./../images/banners/banner-slide-03.jpg") no-repeat center center;
 }
