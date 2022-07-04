@@ -1,1 +1,1 @@
-"use strict";var down=document.querySelector("aside");
+"use strict";var sliderHero=new Swiper(".slider-main",{effect:"fade"});

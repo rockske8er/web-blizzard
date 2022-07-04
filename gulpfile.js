@@ -8,7 +8,7 @@ const uglify = require('gulp-uglify')
 
 const builderSass = () => {
   return gulp.src('./src/assets/scss/**/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(autoprefixer({
       overrideBrowserslist: ['last 2 versions'],
       cascade: false
